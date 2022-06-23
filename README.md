@@ -1,7 +1,6 @@
 # Basketball Lore
 
-Original Credit: Adam Smith
-Edited by: Andy Eng
+Original Credit: Adam Smith // Edited by: Andy Eng
 
 Description: Noteworthy basketball players across multiple eras lead their cities against well known GOAT candidates.
 
