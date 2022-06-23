@@ -1,22 +1,29 @@
 const fillers = {
-    adventurer: ["My dude", "Bro", "Adventurer", "Traveller", "Fellow", "Citizen", "Ashen One", "Dragonborn", "Cool person", "Tarnished", "$adventurer and $adventurer", "$adventurer, $adventurer, and $adventurer", "Geoff"],
-    pre: ["Fra", "Tro", "Gre", "Pan", "Ast", "Ara"],
-    post: ["gria", "ston", "gott","-on-the-lee", "ora", "Ara", "uwu"],
+    adventurer: ["Derrick Rose", "Dirk Nowitzky", "Jason Kidd", "John Stockton", "Joel Embiid", "Charles Barkley", "Damian Lillard", "Ray Allen", "Jeremy Lin", "Carmelo Anthony", "Paul George", "Dwayne Wade", "Luka Doncic", "Chris Paul", "Russell Westbrook", "Blake Griffin", "Jayson Tatum", "Reggie Miller", "Jimmy Butler", "James Harden", "Kevin Durant", "Patrick Ewing"],
+    bball: ["Steph Curry", "Giannis Antetokounmpo", "Michael Jordan", "Shaquille O' Neal", "Nikola Jokic", "LeBron James", "Kobe Bryant", "Magic Johnson", "Larry Bird", "Tim Duncan", "Kawhi Leonard"],
+    referee: ["Tony Brothers", "Zach Zarba", "Bill Kennedy", "Darrell Garretson", "Earl Strom", "Dick Bavetta", "Joey Crawford", "Tim Donaghy"],
+    city: ["Boston", "Los Angeles", "Seattle", "Detroit", "Brooklyn", "Portland", "Dallas", "San Antonio", "Pheonix", "New Orleans", "Sacramento"],
+    adjective: ["windy", "desolate", "barren", "hopeless", "thriving", "esteemed", "racist", "bigoted", "distraught", "war-torn", "cherished", "respected", "forgotten"],
     people: ["kindly", "meek", "brave", "wise", "sacred", "cherished", "honored", "forgotten", "apathetic", "mystic", "orca"],
-    item: ["axe", "staff", "book", "cloak", "shield", "club", "sword", "magic gloves", "galvel", "fists", "mace", "potato"],
-    num: ["two", "three", "eleven", "so many", "too many", "an unsatisfying number of", "barely any", "an unspecified amount of", "surely a satisfactory number of"],
-    looty: ["gleaming", "valuable", "esteemed", "rare", "exalted", "scintillating", "kinda gross but still usefull", "complete garbage"],
-    loots: ["coins", "chalices", "ingots", "hides", "victory points", "gems","scrolls", "bananas", "noodles", "goblins", "CS Majors", "college credits"],
-    baddies: ["orcs", "glubs", "fishmen", "cordungles", "mountain trolls", "college professors", "dragon", "evil $adventurer", "agents of chaos"],
-    message: ["call", "txt", "post", "decree", "shoutz", "tweets", "choiche", "hearkens", "harkening", "harkenening", "harkenenening", "...wait, no! Come back", "Watermelon"],
-    
-  };
+    item: ["arm sleeve", "Jordans", "Headband", "face mask", "ankle wrap", "mouthguard"],
+    stat: ["points", "rebounds", "assists", "steals", "blocks", "deflections"],
+    statNum: ["5", "10", "15", "20", "25", "30", "35", "40", "45", "50"],
+    time: ["2", "3", "4", "5", "6"],
+    shots: ["threes", "dunks", "midrange shots", "free throws", "layups", "buzzer beaters", "defence"],
+    GOAT: ["Maurice Podoloff", "J. Walter Kennedy", "Larry O'Brien", "David Stern", "Adam Silver"]
+    };
   
-  const template = `$adventurer, heed my $message!
+  const template = `$adventurer, where do you think you're going?!?
   
-  I have just come from $pre$post where the $people folk are in desperate need. Their town has been overrun by $baddies. You must venture forth at once, taking my $item, and help them.
+  $bball was just seen in the direction you're currently heading in, ravaging all the $people fans in his wake!!!
+
+  He was just named a $time time league MVP, and his teammate $bball is averaging over $statNum $stat per game, you stand no chance!
   
-  It is told that the one who can rescue them will be awarded with $num $looty $loots. Surely this must tempt one such as yourself!
+  If you are so persistent in going; I, $referee, will guide you to the $adjective city of $city.
+  
+  Bring your most enchanted $item, and may we bring glorious championship pedigree to our $adjective city of $city.
+
+  May $GOAT bless our $shots. AMEN
   `;
   
   
